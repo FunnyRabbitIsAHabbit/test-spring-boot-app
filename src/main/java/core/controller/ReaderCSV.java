@@ -1,4 +1,4 @@
-package core;
+package core.controller;
 
 import core.model.SomeResponce;
 import org.springframework.beans.factory.annotation.Autowired;
