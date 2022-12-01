@@ -8,10 +8,10 @@ public class TestMyController {
 
     @GetMapping("/hello")
     public SomeResponce sayHelloToUser(@RequestBody String name) {
-        SomeResponce responce = new SomeResponce();
-        responce.setResponse("Hello, " + name);
+        SomeResponce response = new SomeResponce();
+        response.setResponse("Hello, " + name);
 
-        return responce;
+        return response;
     }
 
     @RequestMapping(value = "/q/{name}", method = RequestMethod.GET)
